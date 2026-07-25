@@ -1,208 +1,63 @@
-# Complete Interview Prep Kit - AWS Data Engineer
+# AWS Data Engineer Interview Kit
 
-A comprehensive study guide for AWS Data Engineer interviews. This repository contains structured materials covering AWS services, data engineering concepts, interview questions, code examples, and hands-on projects.
+An open, count-verified study repository for data-engineering interviews and AWS certification preparation.
 
-## 📚 Table of Contents
+> **4,868 indexed learning items across 226 count-verified content parts.** Every published count is checked by `tools/verify_counts.py`; the source of truth is `manifest.json`.
 
-1. [Study Roadmap](#study-roadmap)
-2. [AWS Services Overview](#aws-services-overview)
-3. [Core Topics](#core-topics)
-4. [Interview Questions](#interview-questions)
-5. [Code Examples](#code-examples)
-6. [Hands-on Projects](#hands-on-projects)
-7. [Resources](#resources)
+## What is inside
 
----
+| Area | Verified coverage |
+|---|---|
+| SQL | 5 books, 3 cheatsheets, 180 solved coding problems, concepts notes, interview tips, 175 theoretical Q&A |
+| Python | 5 books, 6 cheatsheets, 40 NumPy problems, 70 pandas problems, 29 frequent DE programs, 85 fundamentals, hands-on notes, 40 theoretical Q&A |
+| PySpark | 1 book, 1 cheatsheet, 105 hands-on problems, 5 note sets, 160 theoretical Q&A |
+| Warehousing & modeling | 30 warehousing Q&A and 30 modeling Q&A |
+| Linux, Git & CI/CD | 100 Linux commands, 2 Git cheatsheets, 65 Git Q&A, 55 CI/CD Q&A |
+| DSA & system design | DSA notes, 54 solved problems, batch and streaming design guides |
+| AWS certification practice | Cloud Practitioner 700, Data Engineer Associate 240, Solutions Architect Associate 1,000 |
+| AWS services | 1,170 scenario and theoretical Q&A across Glue, Redshift, EMR, Athena, DynamoDB, Kinesis Data Analytics, S3, Lambda and Step Functions |
+| Projects & career | 21 project paths, 6 resume templates, job-ready guides, 30 interview simulations |
+| Further practice | Tech blogs, 14 repositories, legacy notes, 105 free-dataset practice paths |
 
-## 🗺️ Study Roadmap
+## Start here
 
-### Week 1-2: AWS Fundamentals
-- AWS core concepts and services
-- IAM, VPC, and networking basics
-- S3 storage fundamentals
-- **Time commitment:** 10-12 hours
+- [SQL](sql/) · [Python](python/) · [PySpark](pyspark/)
+- [Data warehousing](data-warehousing/) · [Data modeling](data-modeling/)
+- [Linux](linux/) · [Git](git/) · [CI/CD](ci-cd/) · [DSA](dsa/)
+- [Batch and stream system design](system-design/)
+- [AWS certifications](certifications/) · [AWS services](aws-services/)
+- [21 mini-projects](projects/21-mini-projects.md)
+- [Career resources](career/) · [Datasets and references](resources/)
 
-### Week 3-4: Core Data Services
-- AWS Glue (ETL)
-- Amazon Redshift (Data Warehouse)
-- Amazon EMR (Big Data Processing)
-- AWS Lambda (Serverless Compute)
-- **Time commitment:** 14-16 hours
+## Recommended study loop
 
-### Week 5-6: Advanced Topics
-- Amazon Kinesis (Real-time Streaming)
-- AWS Step Functions (Orchestration)
-- DynamoDB and NoSQL
-- CloudWatch and Monitoring
-- **Time commitment:** 12-14 hours
+1. Read one concept or service file.
+2. Answer each question aloud before revealing the answer.
+3. Run or adapt coding examples in a disposable environment.
+4. Build one mini-project and retain reproducible evidence.
+5. Revisit missed questions after 1, 3, 7 and 14 days.
 
-### Week 7: Hands-on Projects
-- Build ETL pipelines
-- Create streaming solutions
-- Implement data lakes
-- **Time commitment:** 10-12 hours
+## Verify the repository
 
-### Week 8: Interview Preparation
-- Mock interviews
-- Scenario-based questions
-- Final review
-- **Time commitment:** 8-10 hours
+```bash
+python tools/verify_counts.py
+python -m compileall -q tools
+```
 
----
+Expected count check:
 
-## 🏗️ AWS Services Overview
+```text
+PASS: 226 files, 4868 count-verified items
+```
 
-See [`AWS_SERVICES_GUIDE.md`](./AWS_SERVICES_GUIDE.md) for detailed information on:
+## Content policy
 
-- **Amazon S3** - Data Lake Storage
-- **AWS Glue** - ETL and Data Catalog
-- **Amazon Redshift** - Data Warehouse
-- **Amazon EMR** - Big Data Processing
-- **Amazon Kinesis** - Real-time Streaming
-- **AWS Lambda** - Serverless Compute
-- **AWS Step Functions** - Workflow Orchestration
-- **Amazon DynamoDB** - NoSQL Database
-- **AWS Athena** - SQL Queries on S3
-- **Amazon CloudWatch** - Monitoring and Logging
+- Questions and explanations in this repository are original study material.
+- Certification sections are **not exam dumps** and do not contain recalled live-exam questions.
+- “Books” are curated recommendations linking to legitimate author, publisher or official pages; copyrighted books are not redistributed.
+- External projects, videos, datasets and repositories remain the work of their respective owners. Check each license and current documentation before reuse.
+- AWS products and exam blueprints change. Use the linked official documentation as the final authority.
 
----
+## Scope and license
 
-## 💡 Core Topics
-
-Explore detailed guides in the [`topics/`](./topics/) directory:
-
-1. **Data Modeling** - Dimensional modeling, normalization, schema design
-2. **SQL Optimization** - Query performance, indexing, window functions
-3. **ETL/ELT Pipelines** - Data transformation, incremental loads, error handling
-4. **Data Partitioning** - Partition strategies, lifecycle policies
-5. **Infrastructure as Code** - CloudFormation, Terraform
-6. **Orchestration & Scheduling** - Airflow, Step Functions
-7. **Real-time Streaming** - Kinesis, Lambda triggers
-8. **Security & Governance** - IAM, encryption, data governance
-9. **Cost Optimization** - Resource efficiency, pricing models
-10. **Performance Tuning** - Bottlenecks, optimization techniques
-
----
-
-## ❓ Interview Questions
-
-See [`INTERVIEW_QUESTIONS.md`](./INTERVIEW_QUESTIONS.md) for:
-
-- Behavioral questions
-- Technical questions (with answers)
-- Scenario-based problems
-- Architecture design challenges
-- Optimization scenarios
-
----
-
-## 💻 Code Examples
-
-Directory: [`code-examples/`](./code-examples/)
-
-- **Python:** Glue scripts, data processing, Lambda functions
-- **SQL:** Redshift queries, optimization examples, window functions
-- **Infrastructure:** CloudFormation templates, Terraform configurations
-- **Streaming:** Kinesis producers/consumers, Lambda event handlers
-
----
-
-## 🚀 Hands-on Projects
-
-Directory: [`projects/`](./projects/)
-
-1. **Project 1: Data Lake on S3 with Glue**
-   - Ingest data from multiple sources
-   - Catalog with AWS Glue
-   - Query with Athena
-
-2. **Project 2: ETL Pipeline with Redshift**
-   - Build end-to-end ETL
-   - Load to Redshift Data Warehouse
-   - Performance optimization
-
-3. **Project 3: Real-time Streaming Pipeline**
-   - Stream data with Kinesis
-   - Process with Lambda
-   - Store in DynamoDB
-
-4. **Project 4: Orchestrated Data Workflow**
-   - Use Step Functions for orchestration
-   - Multiple data sources
-   - Error handling and monitoring
-
-5. **Project 5: Data Lake Architecture**
-   - Multi-layer architecture (bronze/silver/gold)
-   - Data quality checks
-   - Cost optimization
-
----
-
-## 📖 Resources
-
-### Official AWS Documentation
-- [AWS Big Data Blog](https://aws.amazon.com/blogs/big-data/)
-- [AWS Glue Documentation](https://docs.aws.amazon.com/glue/)
-- [Amazon Redshift Documentation](https://docs.aws.amazon.com/redshift/)
-- [Amazon Kinesis Documentation](https://docs.aws.amazon.com/kinesis/)
-- [AWS Lambda Documentation](https://docs.aws.amazon.com/lambda/)
-
-### Online Courses
-- [AWS Data Analytics Specialty - Udemy](https://www.udemy.com/course/aws-certified-data-analytics-specialty/)
-- [Data Engineering on AWS - Coursera](https://www.coursera.org/learn/data-engineering-aws)
-- [FreeCodeCamp AWS Data Engineering](https://www.youtube.com/watch?v=ZKk8HqN_h6k)
-
-### Books
-- Designing Data-Intensive Applications by Martin Kleppmann
-- Data Engineering with AWS by Gareth Eagar
-
-### Practice Platforms
-- [LeetCode](https://leetcode.com/) - SQL and algorithm problems
-- [InterviewBit](https://www.interviewbit.com/aws-interview-questions/)
-- [Pramp](https://www.pramp.com/) - Mock interviews
-- [Interviewing.io](https://interviewing.io/) - Mock interviews
-
----
-
-## 🏃 How to Use This Repository
-
-1. **Start with the Study Roadmap** - Follow the 8-week plan
-2. **Read AWS Services Guide** - Understand each service's role
-3. **Deep Dive into Core Topics** - Study each topic directory
-4. **Practice Interview Questions** - Go through Q&A section
-5. **Review Code Examples** - Understand implementation patterns
-6. **Build Projects** - Apply knowledge with hands-on projects
-7. **Take Mock Interviews** - Test your readiness
-
----
-
-## 📊 Progress Tracker
-
-- [ ] Week 1-2: AWS Fundamentals
-- [ ] Week 3-4: Core Data Services
-- [ ] Week 5-6: Advanced Topics
-- [ ] Week 7: Hands-on Projects
-- [ ] Week 8: Interview Preparation
-- [ ] Complete all core topics
-- [ ] Answer 50+ interview questions
-- [ ] Build 3+ projects
-- [ ] Take 2+ mock interviews
-
----
-
-## 💬 Contributing
-
-If you find errors or want to add more content:
-1. Create a pull request
-2. Add your improvements
-3. Share interview questions and solutions
-
----
-
-## 📝 License
-
-MIT License - Feel free to use for learning and preparation.
-
----
-
-**Good luck with your AWS Data Engineer interview! 🚀**
+Code and original prose are provided under the [MIT License](LICENSE). External links and names do not transfer ownership of third-party material. AWS and service names are trademarks of Amazon.com, Inc. or its affiliates.

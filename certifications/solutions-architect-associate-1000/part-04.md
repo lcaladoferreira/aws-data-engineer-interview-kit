@@ -1,0 +1,128 @@
+# AWS Solutions Architect – Associate — 1000 Original Practice Q&A — Part 4
+
+Original study questions—not exam dumps or recalled exam content. Verify changing details against AWS documentation.
+
+<!-- item -->
+## 76. **Question:** What is the main risk of **decoupling** in a startup?
+
+**Answer:** The main risk is treating a context-dependent technique as a default. Control it with explicit assumptions, tests, monitoring, and a rollback path. For decoupling, document the input contract, expected scale, failure behavior, and recovery procedure. In a startup, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 77. **Question:** How would you optimize **observability** in an enterprise?
+
+**Answer:** Measure the baseline, identify the dominant cost, apply the narrowest effective change, and compare latency, correctness, and cost after the change. For observability, document the input contract, expected scale, failure behavior, and recovery procedure. In an enterprise, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 78. **Question:** How would you test **resilience** in a regulated workload?
+
+**Answer:** Use deterministic fixtures, boundary cases, failure injection, data-quality assertions, and an integration check that exercises the real contract. For resilience, document the input contract, expected scale, failure behavior, and recovery procedure. In a regulated workload, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 79. **Question:** What production evidence validates **performance** in a multi-account environment?
+
+**Answer:** Use service metrics, logs, traces, query plans, data-quality results, and business reconciliation—not a successful deployment alone. For performance, document the input contract, expected scale, failure behavior, and recovery procedure. In a multi-account environment, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 80. **Question:** How do you make **security** in a disaster-recovery design?
+
+**Answer:** Make ownership, idempotency, retries, observability, security, and cost limits explicit before scaling. For security, document the input contract, expected scale, failure behavior, and recovery procedure. In a disaster-recovery design, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 81. **Question:** How would you explain **cost** in a startup?
+
+**Answer:** Define the concept first, state its trade-offs, then connect it to an observable production decision. For cost, document the input contract, expected scale, failure behavior, and recovery procedure. In a startup, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 82. **Question:** When would you choose **networking** in an enterprise?
+
+**Answer:** Choose it when its access pattern and operational constraints match the workload; reject it when a simpler design meets the SLO. For networking, document the input contract, expected scale, failure behavior, and recovery procedure. In an enterprise, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 83. **Question:** How would you troubleshoot **storage** in a regulated workload?
+
+**Answer:** Start with symptoms and metrics, isolate the failing boundary, validate data and configuration, then change one variable and verify recovery. For storage, document the input contract, expected scale, failure behavior, and recovery procedure. In a regulated workload, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 84. **Question:** What is the main risk of **databases** in a multi-account environment?
+
+**Answer:** The main risk is treating a context-dependent technique as a default. Control it with explicit assumptions, tests, monitoring, and a rollback path. For databases, document the input contract, expected scale, failure behavior, and recovery procedure. In a multi-account environment, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 85. **Question:** How would you optimize **serverless** in a disaster-recovery design?
+
+**Answer:** Measure the baseline, identify the dominant cost, apply the narrowest effective change, and compare latency, correctness, and cost after the change. For serverless, document the input contract, expected scale, failure behavior, and recovery procedure. In a disaster-recovery design, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 86. **Question:** How would you test **migration** in a startup?
+
+**Answer:** Use deterministic fixtures, boundary cases, failure injection, data-quality assertions, and an integration check that exercises the real contract. For migration, document the input contract, expected scale, failure behavior, and recovery procedure. In a startup, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 87. **Question:** What production evidence validates **decoupling** in an enterprise?
+
+**Answer:** Use service metrics, logs, traces, query plans, data-quality results, and business reconciliation—not a successful deployment alone. For decoupling, document the input contract, expected scale, failure behavior, and recovery procedure. In an enterprise, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 88. **Question:** How do you make **observability** in a regulated workload?
+
+**Answer:** Make ownership, idempotency, retries, observability, security, and cost limits explicit before scaling. For observability, document the input contract, expected scale, failure behavior, and recovery procedure. In a regulated workload, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 89. **Question:** How would you explain **resilience** in a multi-account environment?
+
+**Answer:** Define the concept first, state its trade-offs, then connect it to an observable production decision. For resilience, document the input contract, expected scale, failure behavior, and recovery procedure. In a multi-account environment, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 90. **Question:** When would you choose **performance** in a disaster-recovery design?
+
+**Answer:** Choose it when its access pattern and operational constraints match the workload; reject it when a simpler design meets the SLO. For performance, document the input contract, expected scale, failure behavior, and recovery procedure. In a disaster-recovery design, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 91. **Question:** How would you troubleshoot **security** in a startup?
+
+**Answer:** Start with symptoms and metrics, isolate the failing boundary, validate data and configuration, then change one variable and verify recovery. For security, document the input contract, expected scale, failure behavior, and recovery procedure. In a startup, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 92. **Question:** What is the main risk of **cost** in an enterprise?
+
+**Answer:** The main risk is treating a context-dependent technique as a default. Control it with explicit assumptions, tests, monitoring, and a rollback path. For cost, document the input contract, expected scale, failure behavior, and recovery procedure. In an enterprise, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 93. **Question:** How would you optimize **networking** in a regulated workload?
+
+**Answer:** Measure the baseline, identify the dominant cost, apply the narrowest effective change, and compare latency, correctness, and cost after the change. For networking, document the input contract, expected scale, failure behavior, and recovery procedure. In a regulated workload, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 94. **Question:** How would you test **storage** in a multi-account environment?
+
+**Answer:** Use deterministic fixtures, boundary cases, failure injection, data-quality assertions, and an integration check that exercises the real contract. For storage, document the input contract, expected scale, failure behavior, and recovery procedure. In a multi-account environment, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 95. **Question:** What production evidence validates **databases** in a disaster-recovery design?
+
+**Answer:** Use service metrics, logs, traces, query plans, data-quality results, and business reconciliation—not a successful deployment alone. For databases, document the input contract, expected scale, failure behavior, and recovery procedure. In a disaster-recovery design, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 96. **Question:** How do you make **serverless** in a startup?
+
+**Answer:** Make ownership, idempotency, retries, observability, security, and cost limits explicit before scaling. For serverless, document the input contract, expected scale, failure behavior, and recovery procedure. In a startup, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 97. **Question:** How would you explain **migration** in an enterprise?
+
+**Answer:** Define the concept first, state its trade-offs, then connect it to an observable production decision. For migration, document the input contract, expected scale, failure behavior, and recovery procedure. In an enterprise, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 98. **Question:** When would you choose **decoupling** in a regulated workload?
+
+**Answer:** Choose it when its access pattern and operational constraints match the workload; reject it when a simpler design meets the SLO. For decoupling, document the input contract, expected scale, failure behavior, and recovery procedure. In a regulated workload, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 99. **Question:** How would you troubleshoot **observability** in a multi-account environment?
+
+**Answer:** Start with symptoms and metrics, isolate the failing boundary, validate data and configuration, then change one variable and verify recovery. For observability, document the input contract, expected scale, failure behavior, and recovery procedure. In a multi-account environment, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.
+
+<!-- item -->
+## 100. **Question:** What is the main risk of **resilience** in a disaster-recovery design?
+
+**Answer:** The main risk is treating a context-dependent technique as a default. Control it with explicit assumptions, tests, monitoring, and a rollback path. For resilience, document the input contract, expected scale, failure behavior, and recovery procedure. In a disaster-recovery design, confirm the decision with a small reproducible test and retain the evidence an interviewer can inspect.

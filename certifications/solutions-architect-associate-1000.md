@@ -1,0 +1,48 @@
+# AWS Solutions Architect – Associate — 1000 Original Practice Q&A
+
+Original study questions—not exam dumps or recalled exam content. Verify changing details against AWS documentation.
+
+**Verified items:** 1000
+
+## Parts
+
+- [part-01](solutions-architect-associate-1000/part-01.md)
+- [part-02](solutions-architect-associate-1000/part-02.md)
+- [part-03](solutions-architect-associate-1000/part-03.md)
+- [part-04](solutions-architect-associate-1000/part-04.md)
+- [part-05](solutions-architect-associate-1000/part-05.md)
+- [part-06](solutions-architect-associate-1000/part-06.md)
+- [part-07](solutions-architect-associate-1000/part-07.md)
+- [part-08](solutions-architect-associate-1000/part-08.md)
+- [part-09](solutions-architect-associate-1000/part-09.md)
+- [part-10](solutions-architect-associate-1000/part-10.md)
+- [part-11](solutions-architect-associate-1000/part-11.md)
+- [part-12](solutions-architect-associate-1000/part-12.md)
+- [part-13](solutions-architect-associate-1000/part-13.md)
+- [part-14](solutions-architect-associate-1000/part-14.md)
+- [part-15](solutions-architect-associate-1000/part-15.md)
+- [part-16](solutions-architect-associate-1000/part-16.md)
+- [part-17](solutions-architect-associate-1000/part-17.md)
+- [part-18](solutions-architect-associate-1000/part-18.md)
+- [part-19](solutions-architect-associate-1000/part-19.md)
+- [part-20](solutions-architect-associate-1000/part-20.md)
+- [part-21](solutions-architect-associate-1000/part-21.md)
+- [part-22](solutions-architect-associate-1000/part-22.md)
+- [part-23](solutions-architect-associate-1000/part-23.md)
+- [part-24](solutions-architect-associate-1000/part-24.md)
+- [part-25](solutions-architect-associate-1000/part-25.md)
+- [part-26](solutions-architect-associate-1000/part-26.md)
+- [part-27](solutions-architect-associate-1000/part-27.md)
+- [part-28](solutions-architect-associate-1000/part-28.md)
+- [part-29](solutions-architect-associate-1000/part-29.md)
+- [part-30](solutions-architect-associate-1000/part-30.md)
+- [part-31](solutions-architect-associate-1000/part-31.md)
+- [part-32](solutions-architect-associate-1000/part-32.md)
+- [part-33](solutions-architect-associate-1000/part-33.md)
+- [part-34](solutions-architect-associate-1000/part-34.md)
+- [part-35](solutions-architect-associate-1000/part-35.md)
+- [part-36](solutions-architect-associate-1000/part-36.md)
+- [part-37](solutions-architect-associate-1000/part-37.md)
+- [part-38](solutions-architect-associate-1000/part-38.md)
+- [part-39](solutions-architect-associate-1000/part-39.md)
+- [part-40](solutions-architect-associate-1000/part-40.md)
